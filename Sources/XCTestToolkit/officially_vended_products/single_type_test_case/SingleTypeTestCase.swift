@@ -19,6 +19,13 @@ public protocol SingleTypeTestCaseProtocol where Self: XCTestCase {
 public extension SingleTypeTestCaseProtocol {
     
     ///
+    func ifGivenSubject (_ hypotheticalUsage: (Subject)async throws->()) { }
+}
+
+///
+public extension SingleTypeTestCaseProtocol {
+    
+    ///
     var metatype: Subject.Type {
         Subject.self
     }
@@ -28,12 +35,8 @@ public extension SingleTypeTestCaseProtocol {
 public extension SingleTypeTestCaseProtocol {
     
     ///
-    func proof_property <Value> (_ keyPath: KeyPath<Subject, Value>, _ valueType: Value.Type) {
-        
-    }
+    func proof_property <Value> (_ keyPath: KeyPath<Subject, Value>, _ valueType: Value.Type) { }
     
     ///
-    func proof_mutableProperty <Value> (_ keyPath: WritableKeyPath<Subject, Value>, _ valueType: Value.Type) {
-        
-    }
+    func proof_mutableProperty <Value> (_ keyPath: WritableKeyPath<Subject, Value>, _ valueType: Value.Type) { }
 }
