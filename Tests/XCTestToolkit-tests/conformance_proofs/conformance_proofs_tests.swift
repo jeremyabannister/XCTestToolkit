@@ -38,6 +38,14 @@ extension CaseIterable_tests {
 }
 
 ///
+func proofOfExistenceOf_proofOfConformanceTo_Codable() {
+    func imagine<T: Codable>(t: T) {
+        t.proofOfConformanceTo_Codable()
+        T.proofOfConformanceTo_Codable()
+    }
+}
+
+///
 extension CodingKey_tests {
     
     ///

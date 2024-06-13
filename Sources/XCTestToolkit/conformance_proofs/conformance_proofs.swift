@@ -26,6 +26,14 @@ extension CaseIterable {
 }
 
 ///
+extension Decodable where Self: Encodable {
+    
+    ///
+    public func proofOfConformanceTo_Codable() { }
+    public static func proofOfConformanceTo_Codable() { }
+}
+
+///
 extension CodingKey {
     
     ///
