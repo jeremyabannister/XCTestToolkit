@@ -1,7 +1,10 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.10
 
+///
 import PackageDescription
 
+
+///
 let package = Package(
     name: "XCTestToolkit",
     products: [
@@ -10,9 +13,7 @@ let package = Package(
             targets: ["XCTestToolkit"]
         ),
     ],
-    dependencies: [
-        
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "XCTestToolkit",
