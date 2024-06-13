@@ -102,6 +102,7 @@ extension Error_tests { }
 extension ExpressibleByFloatLiteral_tests { }
 extension ExpressibleByIntegerLiteral_tests { }
 extension Hashable_tests { }
+extension LocalizedError_tests { }
 extension Numeric_tests { }
 extension RawRepresentable_tests { }
 extension Sequence_tests { }

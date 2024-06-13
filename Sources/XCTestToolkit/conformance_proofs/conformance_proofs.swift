@@ -123,6 +123,14 @@ extension Identifiable {
 }
 
 ///
+extension LocalizedError {
+    
+    ///
+    public func proofOfConformanceTo_LocalizedError() { }
+    public static func proofOfConformanceTo_LocalizedError() { }
+}
+
+///
 extension Numeric {
     
     ///

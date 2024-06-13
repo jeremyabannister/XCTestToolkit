@@ -179,6 +179,18 @@ extension Identifiable_tests {
 }
 
 ///
+extension LocalizedError_tests {
+    
+    ///
+    func proofOfExistenceOf_proofOfConformanceTo_LocalizedError() {
+        func imagine<T: LocalizedError>(t: T) {
+            t.proofOfConformanceTo_LocalizedError()
+            T.proofOfConformanceTo_LocalizedError()
+        }
+    }
+}
+
+///
 extension Numeric_tests {
     
     ///

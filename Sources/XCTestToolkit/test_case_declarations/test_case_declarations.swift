@@ -102,6 +102,7 @@ public final class Error_tests: XCTestCase { }
 public final class ExpressibleByFloatLiteral_tests: XCTestCase { }
 public final class ExpressibleByIntegerLiteral_tests: XCTestCase { }
 public final class Hashable_tests: XCTestCase { }
+public final class LocalizedError_tests: XCTestCase { }
 public final class Numeric_tests: XCTestCase { }
 public final class RawRepresentable_tests: XCTestCase { }
 public final class Sequence_tests: XCTestCase { }
