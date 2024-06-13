@@ -8,12 +8,8 @@
 // MARK: - XCTestToolkit -
 
 ///
-public final class SingleTypeTestCase_tests: SingleTypeTestCase {
-    public typealias Subject = SingleTypeTestCase
-}
-public final class SingleTypeTestCaseProtocol_tests: SingleTypeTestCase {
-    public typealias Subject = SingleTypeTestCaseProtocol
-}
+public final class SingleTypeTestCase_tests: XCTestCase { }
+public final class SingleTypeTestCaseProtocol_tests: XCTestCase { }
 
 // MARK: - XCTest -
 
@@ -93,21 +89,24 @@ public final class UUID_tests: SingleTypeTestCase {
 }
 
 /// Protocols
-public final class AdditiveArithmetic_tests: SingleTypeTestCase {
-    public typealias Subject = AdditiveArithmetic
-}
-public final class BinaryInteger_tests: SingleTypeTestCase {
-    public typealias Subject = BinaryInteger
-}
-public final class Decodable_tests: SingleTypeTestCase {
-    public typealias Subject = Decodable
-}
-public final class Encodable_tests: SingleTypeTestCase {
-    public typealias Subject = Encodable
-}
-public final class Numeric_tests: SingleTypeTestCase {
-    public typealias Subject = Numeric
-}
-public final class Sequence_tests: SingleTypeTestCase {
-    public typealias Subject = Sequence
-}
+public final class AdditiveArithmetic_tests: XCTestCase { }
+public final class BinaryInteger_tests: XCTestCase { }
+public final class CaseIterable_tests: XCTestCase { }
+public final class CodingKey_tests: XCTestCase { }
+public final class Comparable_tests: XCTestCase { }
+public final class CustomStringConvertible_tests: XCTestCase { }
+public final class Decodable_tests: XCTestCase { }
+public final class Encodable_tests: XCTestCase { }
+public final class Equatable_tests: XCTestCase { }
+public final class Error_tests: XCTestCase { }
+public final class ExpressibleByFloatLiteral_tests: XCTestCase { }
+public final class ExpressibleByIntegerLiteral_tests: XCTestCase { }
+public final class Hashable_tests: XCTestCase { }
+public final class Numeric_tests: XCTestCase { }
+public final class RawRepresentable_tests: XCTestCase { }
+public final class Sequence_tests: XCTestCase { }
+public final class SignedNumeric_tests: XCTestCase { }
+
+///
+@available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+public final class Identifiable_tests: XCTestCase { }
