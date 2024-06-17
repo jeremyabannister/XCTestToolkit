@@ -24,9 +24,8 @@ public func expectError(
 }
 
 ///
-@MainActor
 public func expectError(
-    from closure: @MainActor ()throws->()
+    from closure: ()throws->()
 ) throws {
     
     ///
