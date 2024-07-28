@@ -6,6 +6,7 @@
 //
 
 ///
+@available(macOS 10.15.0, iOS 13.0, watchOS 6.0.0, tvOS 13.0.0, *)
 public func expectError(
     from closure: ()async throws->()
 ) async throws {
@@ -24,6 +25,7 @@ public func expectError(
 }
 
 ///
+@available(macOS 10.15.0, iOS 13.0, watchOS 6.0.0, tvOS 13.0.0, *)
 public func expectError(
     from closure: ()throws->()
 ) throws {
